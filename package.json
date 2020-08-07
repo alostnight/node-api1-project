@@ -1,12 +1,14 @@
 {
 	"private": true,
 	"scripts": {
-		"start": "node server.js"
+		"start": "node server.js",
+		"server": "nodemon server.js"
 	},
 	"devDependencies": {
 		"cross-env": "^7.0.2",
 		"dotenv": "^8.2.0",
-		"dotenv-json": "^1.0.0"
+		"dotenv-json": "^1.0.0",
+		"nodemon": "^2.0.4"
 	},
 	"dependencies": {
 		"express": "^4.17.1",
